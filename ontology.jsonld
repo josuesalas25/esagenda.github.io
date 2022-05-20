@@ -104,10 +104,6 @@
     "@value" : "Evento que tendrá lugar en una ciudad."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Event"
-  }, {
-    "@language" : "es",
     "@value" : "Evento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -329,11 +325,7 @@
     "@value" : "Un evento que tiene lugar a una hora y en un lugar determinados, como un concierto, una conferencia o un festival."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
     "@value" : "Event"
-  }, {
-    "@language" : "es",
-    "@value" : "Evento"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento"
@@ -874,7 +866,7 @@
     "@value" : "URL of the item"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://schema.org/Event"
+    "@id" : "https://schema.org/CreativeWork"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",

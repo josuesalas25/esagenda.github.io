@@ -338,7 +338,7 @@
 # https://schema.org/url
 <https://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Event> .
+<https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/CreativeWork> .
 <https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#comment> "Enlace del artículo"@es .
 <https://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of the item"@en .
@@ -384,8 +384,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento> <http://www.w3.org/2000/01/rdf-schema#comment> "An event that will take place in a city."@en .
 <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento que tendrá lugar en una ciudad."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento> <http://www.w3.org/2000/01/rdf-schema#label> "Evento"@es .
+<http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento> <http://www.w3.org/2000/01/rdf-schema#label> "Evento" .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructura/equipamiento-municipal#Equipamiento
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructura/equipamiento-municipal#Equipamiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -425,8 +424,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <https://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/cultura-ocio/agenda#Evento> .
 <https://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event happening at a certain time and location, such as a concert, lecture, or festival."@en .
 <https://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Un evento que tiene lugar a una hora y en un lugar determinados, como un concierto, una conferencia o un festival."@es .
-<https://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
-<https://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Evento"@es .
+<https://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
 # 
 # https://schema.org/Place
 <https://schema.org/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

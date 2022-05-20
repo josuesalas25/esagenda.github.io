@@ -361,7 +361,7 @@
 ###  https://schema.org/url
 <https://schema.org/url> rdf:type owl:DatatypeProperty ,
                                   owl:FunctionalProperty ;
-                         rdfs:domain <https://schema.org/Event> ;
+                         rdfs:domain <https://schema.org/CreativeWork> ;
                          rdfs:range xsd:string ;
                          rdfs:comment "Enlace del artículo"@es ,
                                       "URL of the item"@en ;
@@ -400,8 +400,7 @@
                         ] ;
         rdfs:comment "An event that will take place in a city."@en ,
                      "Evento que tendrá lugar en una ciudad."@es ;
-        rdfs:label "Event"@en ,
-                   "Evento"@es .
+        rdfs:label "Evento" .
 
 
 ###  http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructura/equipamiento-municipal#Equipamiento
@@ -447,8 +446,7 @@
                            rdfs:subClassOf :Evento ;
                            rdfs:comment "An event happening at a certain time and location, such as a concert, lecture, or festival."@en ,
                                         "Un evento que tiene lugar a una hora y en un lugar determinados, como un concierto, una conferencia o un festival."@es ;
-                           rdfs:label "Event"@en ,
-                                      "Evento"@es .
+                           rdfs:label "Event" .
 
 
 ###  https://schema.org/Place
